@@ -1,0 +1,42 @@
+.container{
+
+    margin-top: 100px;
+    border:none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    border-radius: 12px;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    width: 350px; 
+    height: 50px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    border-bottom: 3px solid;
+    border-color: black;
+}
+
+.verde{
+    background-color: green;
+    color: white;
+}
+
+.vermelho{
+    background-color: red;
+    color: white;
+}
+
+.azul{
+    background-color: blue;
+    color: white;
+}
