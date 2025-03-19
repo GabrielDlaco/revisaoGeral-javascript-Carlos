@@ -29,14 +29,21 @@ button{
 .verde{
     background-color: green;
     color: white;
+    cursor: pointer;
 }
 
 .vermelho{
     background-color: red;
     color: white;
+    cursor: pointer;
 }
 
 .azul{
     background-color: blue;
     color: white;
+    cursor: pointer;
+}
+
+.resetar{
+    cursor: pointer;
 }

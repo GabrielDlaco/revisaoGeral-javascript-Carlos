@@ -1,0 +1,33 @@
+<!-- Elaborar um programa para um restaurante que leia o preço por kg e o consumo (em gramas) de um cliente e exiba o valor a ser pago. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+      body { font-family: Arial, sans-serif; text-align: center; margin: 50px;}
+      input,select,button { margin: 10px; padding: 5px; font-size: 16px;}
+    </style>
+  </head>
+  <body>
+    <h2>Restaurante JS</h2>
+    <div>
+      <label for="inQuilo">Buffet por Quilo R$:</label>
+      <input type="text" id="inQuilo" />
+    </div>
+
+    <div>
+        <label for="inConsumo">Consumo do cliente (gr): </label>
+        <input type="text" id="inConsumo">
+    </div>
+
+    <input type="button" value="Calcular Preço" id="btnCalcular" />
+
+    <h3 id="outValor"></h3>
+
+    <script src="script.js"></script>
+  </body>
+</html>

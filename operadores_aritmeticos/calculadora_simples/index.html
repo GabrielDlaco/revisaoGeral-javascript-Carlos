@@ -1,0 +1,49 @@
+<!-- Criar uma **página web interativa** onde o usuário possa inserir dois números e escolher uma operação matemática (soma ou subtração). O cálculo será processado via JavaScript e exibido na tela.
+
+1️⃣ **Criação da Interface**
+
+- Desenvolva um arquivo **HTML** contendo:
+    - Dois campos de entrada (`<input>`) para os números.
+    - Um `<select>` para o usuário escolher a operação (soma ou subtração).
+    - Um botão (`<button>`) para realizar o cálculo.
+    - Um elemento (`<p>`) para exibir o resultado.
+
+2️⃣ **Interação com JavaScript**
+
+- Ao clicar no botão, a página deve capturar os valores digitados e a operação selecionada.
+- Os valores e a operação devem ser passados para uma função `calculo(num1, num2, operacao)`, que executará a operação correspondente.
+- O resultado deve ser exibido na página dentro do elemento `<p>`. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <h2>Calculadora Aritmética</h2>
+
+        <label for="num1">Número 1:</label>
+        <input type="number" id="num1">
+
+        <label for="operacao">Operação:</label>
+        <select id="operacao">
+            <option value="soma">Soma (➕)</option>
+            <option value="subtracao">Subtração (➖)</option>
+            <option value="multiplicacao">Multiplicação(✖)</option>
+            <option value="divisao">Divisão(➗)</option>
+        </select>
+
+        <label for="num2">Número 2:</label>
+        <input type="number" id="num2">
+
+        <button id="btnCalcular">Calcular</button>
+
+        <p id="outResposta"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
