@@ -1,5 +1,3 @@
-<!-- Elaborar um programa para uma Vídeo Locadora, que leia o título e a duração de um filme em minutos. Exiba o título do filme e converta a duração de horas para minutos. -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,24 +11,21 @@
     </style>
   </head>
   <body>
-    <h2>Vídeo Locadora JS</h2>
+   <div class="container">
+    <h2>Restaurante JS</h2>
     <div>
-      <label for="inTitulo">Título do filme:</label>
-      <input type="text" id="inTitulo" />
+      <label for="inQuilo">Buffet por Quilo R$:</label>
+      <input type="text" id="inQuilo" />
     </div>
 
     <div>
-        <label for="inDuracao">Duração(min):</label>
-        <input type="text" id="inDuracao">
+        <label for="inConsumo">Consumo do cliente (gr): </label>
+        <input type="text" id="inConsumo">
     </div>
 
-    <input type="button" value="Converter em Horas e Minutos" id="btnConverter"></input>
+    <input type="button" value="Calcular Preço" id="btnCalcular" />
 
-    <div>
-        <p id="outTitulo"></p>
-        <p id="outResposta"></p>
-    </div>
-
-    <script src="script.js"></script>
+    <h3 id="outValor"></h3>
+   </div>
   </body>
 </html>

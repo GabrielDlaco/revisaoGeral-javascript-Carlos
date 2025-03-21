@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(245, 89, 32);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(54, 51, 51);
+    border-radius: 5px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+input{
+    border-radius: 7px;
+    border: rgb(245, 89, 32) 1px solid;
+}
+
+#outTitulo, #outResposta{
+    color: white;
+}
+
+#btnConverter{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}

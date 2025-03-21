@@ -1,31 +1,31 @@
-
-body {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(135deg, #0f0f1a, #1a1a40);
-    color: #00ffc3;
-    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden;
+    color: white;
 }
 
 .conteiner {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgb(46, 43, 43);
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 0 20px #00ffc3;
+    border: #30927b 3px solid;
     text-align: center;
-    transition: transform 0.5s, box-shadow 0.5s;
 }
 
 
 h2 {
     font-size: 2em;
     margin-bottom: 20px;
+    color: white;
 }
 
 label {
@@ -35,12 +35,11 @@ label {
 }
 
 input, select {
-    background: transparent;
-    border: 2px solid #00ffc3;
+    background: white;
     border-radius: 10px;
     padding: 10px;
-    color: #00ffc3;
     font-size: 1em;
+    color: black;
     transition: border-color 0.5s;
 }
 
@@ -50,11 +49,10 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    background: linear-gradient(90deg, #00ffc3, #00ffcc);
-    color: #0f0f1a;
+    background-color: #30927b;
+    color: white;
     font-size: 1.2em;
     cursor: pointer;
-    transition: background 0.5s, transform 0.3s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,14 +60,7 @@ button {
     margin-left: 110px;
 }
 
-button:hover {
-    background: linear-gradient(90deg, #00ffcc, #00ffee);
-    transform: translateY(-5px);
-}
-
-#outResposta {
+#resultado {
     margin-top: 20px;
     font-size: 1.5em;
-    text-shadow: 0 0 10px #00ffc3;
-    transition: opacity 0.5s;
 }

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(10, 88, 233);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(54, 51, 51);
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 7px;
+    color: black;
+}
